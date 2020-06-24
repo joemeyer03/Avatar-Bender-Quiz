@@ -334,7 +334,7 @@ function check(){
 	if (waterPercent > .8) {
 		bendingType = "Water Bender With the Ability to Blood Bend";
 	}
-	if (firePercent > .69 && firePercent < .7){
+	if (firePercent > .65 && firePercent < .7){
 		bendingType = "Combustion Bender";
 	}
 	if (firePercent > airPercent && firePercent > waterPercent) {
