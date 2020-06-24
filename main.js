@@ -309,9 +309,9 @@ function check(){
 		water += 1;
 	}
 	
-	airPercent = air / 20;
-	waterPercent = water / 19;
-	firePercent = fire / 20;
+	airPercent = air / 19;
+	waterPercent = water / 18;
+	firePercent = fire / 19;
 	earthPercent = earth / 16.5;
 
 	var bendingType = "";
