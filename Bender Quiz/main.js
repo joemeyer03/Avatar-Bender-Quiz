@@ -312,7 +312,7 @@ function check(){
 	airPercent = air / 20;
 	waterPercent = water / 19;
 	firePercent = fire / 20;
-	earthPercent = earth / 17.5;
+	earthPercent = earth / 16.5;
 
 	var bendingType = "";
 
@@ -328,7 +328,7 @@ function check(){
 	if (earthPercent > waterPercent && earthPercent > firePercent && earthPercent > airPercent) {
 		bendingType = "Earth Bender"
 	}
-	if (earthPercent > .9) {
+	if (earthPercent > .8) {
 		bendingType = "Metal Bender";
 	}
 	if (firePercent > airPercent && firePercent > waterPercent) {
