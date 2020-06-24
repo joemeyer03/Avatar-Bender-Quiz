@@ -339,7 +339,10 @@ function check(){
 		}
 	}
 
-	console.log(bendingType);
+	console.log("Air Bender Percent: " + airPercent);
+	console.log("Water Bender Percent: " + waterPercent);
+	console.log("Fire Bender Percent: " + firePercent);
+	console.log("Earth Bender Percent: " + earthPercent);
 
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("number_correct").innerHTML = "You are a " + bendingType + "!";
